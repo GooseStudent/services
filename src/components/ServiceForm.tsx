@@ -79,7 +79,7 @@ const ServiceForm: React.FC = () => {
         {form.errors.price && <p style={{ color: 'red' }}>{form.errors.price}</p>}
       </div>
 
-      <button type="submit">Save</button>
+      <button type="submit">Сохранить</button>
 
       {isEditing && (
         <button type="button" onClick={handleCancel}>
